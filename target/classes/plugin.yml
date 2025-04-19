@@ -1,0 +1,17 @@
+name: StaffSummon
+main: me.Unprankable.staffSummon.StaffSummon
+version: '1.0'
+commands:
+  staffsummon:
+    description: "Request assistance from a staff member"
+    usage: "/staffsummon <request/accept/get> <reason/player/[requests/staff]>"
+api-version: '1.21'
+permissions:
+  staffsummon.staff:
+    description: "Who can recieve and accept staff summon requests"
+    default: false
+  staffsummon.use:
+    description: "who can request staff"
+    default: true
+authors: [ "Unprankable" ]
+description: Minecraft Plugin for requesting help from staff on any server
